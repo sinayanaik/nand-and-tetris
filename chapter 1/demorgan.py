@@ -14,21 +14,21 @@ def boolean_and(x: int, y: int) -> int:
         return 0
 
 
-def boolean_or(x: int, y: int):
+def boolean_or(x: int, y: int) -> int:
     if x == y == 0:
         return 0
     else:
         return 1
 
 
-def bool_not(x: int):
+def bool_not(x: int)-> int:
     if x == 1:
         return 0
     elif x == 0:
         return 1
 
 
-def boolean_demorgan(x: int, y: int):
+def boolean_demorgan(x: int, y: int)-> int:
     if x and y not in [0, 1]:
         print("only 0 and 1 permitted input")
         sys.exit()
