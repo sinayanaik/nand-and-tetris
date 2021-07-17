@@ -21,6 +21,6 @@ Python interpretation of the logic gates
 
 ### Any gate can be realized using NAND gate only
 
-• Not ( x ) = x Nand x                                                       • Not can be realized using Nand
-• x And y = Not ( x Nand y)                                                  • And can be realized using Nand
-• x Or y = Not(Not(x) And Not(y))                                            • Or can be realized using Nand
+• Not ( x ) = x Nand x                                                        Not can be realized using Nand
+• x And y = Not ( x Nand y)                                                   And can be realized using Nand
+• x Or y = Not(Not(x) And Not(y))                                             Or can be realized using Nand
