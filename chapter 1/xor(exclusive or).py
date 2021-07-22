@@ -1,4 +1,4 @@
-#  gives a true (1 or HIGH) output when the number of true inputs is odd
+#  gives a true (1) output when the number of true inputs is odd
 
 import sys
 
